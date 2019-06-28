@@ -7,43 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cddbf2b-a3bf-460b-b563-8d4c61454281" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/AdminPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/AdminRoomController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/ApplicationFromUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/BookingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/DeleteApplicationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/UpdateUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/UserPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/AccountDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/ApplicationDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/RoomDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/RoomTypeDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/AccountDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/ApplicationDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/RoomDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/RoomTypeDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/UserDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/exсeption/DAOException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/model/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/model/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/model/RoomType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin_page.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/contact_us.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style-contact-us.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style-main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style-user.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/user_page.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/softserve/ita/dao/impl/UserDAOImplTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Lv418Servlets/.idea/Lv418Servlets.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Lv418Servlets/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -186,7 +152,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="635" />
     <option name="y" value="461" />
     <option name="width" value="1288" />
