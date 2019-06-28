@@ -1,0 +1,555 @@
+
+
+.blank {
+    width: 100%;
+    height: 95px;
+}
+
+.about-me {
+    width: 100%;
+}
+
+.information-about-me {
+    width: 50%;
+    margin: 2% 25%;
+    border: 1px solid #222222;
+    padding: 8px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.about-me .my-profile-photo {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.about-me .my-profile-photo img {
+    width: 100%;
+}
+
+.right-panel-wrapper {
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.left-panel-wrapper {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 50%;
+}
+
+.field {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.field label {
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+button.change-user {
+    width: 65%;
+    margin-right: 17.5%;
+    margin-left: 17.5%;
+    background-color: #1C1C1C;
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-bottom: 6%;
+}
+
+button.change-user:hover {
+    opacity: 0.8;
+}
+
+.my-history {
+    width: 100%;
+    display: flex;
+}
+
+.history {
+    width: 80%;
+    margin: 2% 10%;
+}
+
+#history {
+    padding: 4%;
+    border: 1px solid #222222;
+    border-spacing: 10px 30px;
+}
+
+#history .photo {
+     width: 30%;
+}
+
+#history tr{
+    width: 10%;
+    text-align: center;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.heading {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.comment {
+    margin-top: 9%;
+    margin-bottom: 11%;
+}
+
+.col-information{
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+
+h1#history-heading {
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+tr{
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border-spacing: 20px 20px;
+
+}
+
+td img {
+    width: 95%;
+    margin-right: 5%;
+}
+
+
+#application-booking {
+    width: 60%;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#application {
+    border: 3px solid #f1f1f1;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 1% 4% 2%;
+    margin-bottom: 4%;
+}
+
+.content-profile {
+    width: 100%;
+}
+
+input[type=text], input[type=password], input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    height: 40px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.select-label {
+    width: 100%;
+}
+
+.check-label {
+    width: 100%;
+    display: flex;
+    margin-bottom: 1%;
+}
+
+input[type=checkbox] {
+    width: 4%;
+    height: 30px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.booking-label {
+    width: 96%;
+    height: 30px;
+    font-size: 16px;
+    padding-right: 4%;
+    padding-left: 4%;
+    padding-top: 1%;
+}
+
+.heading-form-booking {
+    text-align: center;
+}
+
+#feeding {
+    width: 100%;
+    height: 40px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+#feeding option {
+    width: 100%;
+    height: 40px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#send-booking {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: #FFFFFF;
+}
+
+.spacing-between-rows {
+    border-collapse:separate;
+    border-spacing: 0 30px;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-body-text {
+    text-align: center;
+}
+
+.modal-form {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.element-modal-form {
+    display: flex;
+    width: 100%;
+}
+
+.modal-input {
+    width: 65%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.modal-label {
+    width: 25%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 10px;
+}
+
+.modal-button {
+    width: 40%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: inline-block;
+    float: right;
+}
+
+.change {
+    text-decoration: none;
+    color: #222222;
+}
+
+.change:hover {
+    text-decoration: none;
+    color: #657CA9;
+    font-size: 16px;
+}
+
+#comment {
+    height: 200px;
+    outline: none;
+    resize: none;
+    color: #cccccc;
+    text-indent: 2px;
+}
+
+
+li {
+    list-style: none;
+}
+
+
+.application-heading {
+    text-align: center;
+    font-size: 16pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#content-tables {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    width: 86%;
+}
+
+.sidenav {
+    width: 14%;
+    background-color: #000000;
+    color: #FFFFFF;
+    overflow-x: hidden;
+    border: 2px solid #1C1C1C;
+    display: inline-block;
+    height: 100%;
+    min-height: 600px;
+}
+
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+#user-table, #type-of-rooms-table, #rooms-table {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: #cccccc;
+}
+
+.header-table-option {
+    text-align: center;
+}
+
+h1.h1-user {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 18pt;
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: dimgrey;
+    padding-left: 10%;
+}
+
+.table-row {
+    font-size: 14pt;
+}
+
+.button-table {
+    width: 20%;
+    margin-left: 6.1%;
+    margin-right: 6.1%;
+}
+
+.button-table img {
+    width: 100%;
+}
+
+.td-button {
+    display: inline-block;
+    max-width: 200px;
+
+}
+
+#table-user, #table-type-of-room, #table-room {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#table-user td, #user-table th, #table-type-of-room td, #table-type-of-room th,  #table-room td, #table-room th{
+    padding: 8px;
+}
+
+#table-user tr:nth-child(even), #table-type-of-room tr:nth-child(even), #table-room tr:nth-child(even){background-color: #f2f2f2;}
+
+#table-user tr:hover, #table-type-of-room tr:hover, #table-room tr:hover {background-color: #ddd;}
+
+#table-user th, #table-type-of-room th, #table-room th  {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #000000;
+    color: white;
+}
+
+.button-sidenav {
+    width: 100%;
+    background-color: #222222;
+    color: #FFFFFF;
+    height: 40px;
+    font-size: 16pt;
+    border: none;
+    text-align: left;
+}
+
+.button-sidenav:hover {
+    opacity: 0.8;
+    border: none;
+}
+
+.button-sidenav:active,
+.button-sidenav:focus {
+    outline: none;
+}
+
+.top-application {
+    width: 100%;
+}
+
+.applications-user {
+    width: 50%;
+    margin: 2% 25%;
+    border: #222222 1px solid;
+}
+
+#applications {
+    width: 100%;
+}
+.application-from-user {
+    /*display: flex;*/
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.right-information {
+    width: 40%;
+    margin-left: 5%;
+    float: right;
+}
+
+.left-information {
+    width: 50%;
+    margin-left: 5%;
+    float: left;
+}
+
+.right-information.application-li, .left-information.application-li {
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+
+}
+
+.application-label {
+    width: 40%;
+    float: left;
+    font-weight: bold;
+}
+
+.meaning-li {
+    width: 60%;
+    float: right;
+    background-color: #FFFFFF;
+    font-weight: normal;
+}
+
+.do-smth-application {
+    width: 50%;
+    margin-right: 5%;
+    margin-left: 45%;
+    margin-top: 50px;
+}
+
+.accept-application {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: right;
+    font-size: 12pt;
+    height: 30px;
+    padding: 0;
+}
+
+.reject-application {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+    font-size: 12pt;
+    height: 30px;
+    padding: 0;
+}
+
+.button-add {
+    float: right;
+    width: 10%;
+}
+
+.button-none-table {
+    width: 35%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: 30%;
+    /*margin-left: 48%;
+    margin-right: 2%;*/
+}
+
+.button-none-table img {
+    width: 100%;
+}
+
+.heading-and-add {
+    width: 100%;
+}
+
+.heading-table {
+    width: 90%;
+    margin: auto;
+    float: left;
+}

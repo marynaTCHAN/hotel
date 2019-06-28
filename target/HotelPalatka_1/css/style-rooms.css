@@ -1,0 +1,97 @@
+
+#room-content-detailed {
+    width: 100%;
+    padding-top: 7%;
+}
+
+.room-detailed {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    margin: 2% 10%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.photo-room-detailed{
+    width: 30%;
+}
+
+.photo-room-detailed img{
+    width: 100%;
+}
+
+.detailed-information {
+    width: 65%;
+    padding-right: 5%;
+}
+
+.detailed-information li {
+    list-style: none;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.room-button-booking {
+    margin-left: 70%;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #000000;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14pt;
+    padding: 15px;
+    width: 30%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: -8%;
+}
+.room-button-booking span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.room-button-booking span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.room-button-booking:hover span {
+    padding-right: 25px;
+}
+
+.room-button-booking:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.room-line {
+    margin-bottom: 2%;
+    width: 100%;
+    background-color: #222222;
+    height: 40px;
+}
+
+ .text-line {
+     width: 10%;
+     text-align: center;
+     margin-right: 45%;
+     margin-left: 45%;
+     color: #fff;
+    font-weight: bold;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+
+ .price {
+     font-size: 14pt;
+     padding-top: 2%;
+     padding-bottom: 1%;
+ }
