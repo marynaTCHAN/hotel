@@ -6,10 +6,122 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cddbf2b-a3bf-460b-b563-8d4c61454281" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lv418Servlets/.idea/Lv418Servlets.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lv418Servlets/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="7cddbf2b-a3bf-460b-b563-8d4c61454281" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/AddRoomController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/AddRoomTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/AddUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/AdminInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/AdminPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/DeleteRoomController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/DeleteRoomTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/DeleteUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/DoBillController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/RejectApplicationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/UpdateRoomController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/UpdateRoomTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/UpdateUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/ot/AbstractController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/ot/AdminInformationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/ot/ApplicationFromUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/ot/Change.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/ot/GetInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/ot/Information.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/filter/UserFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/application_from_users.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/change_information.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4de3b00a-53a8-428d-a35f-8decd667ae3a.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/AdminPageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/AdminRoomController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/ApplicationFromUserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/user/BookingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/DeleteApplicationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/UpdateUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/user/UpdateUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/UserPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/user/UserPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/AccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/AccountDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/ApplicationDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/ApplicationDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/RoomDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/RoomDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/RoomTypeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/RoomTypeDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/AccountDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/AccountDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/ApplicationDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/ApplicationDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/RoomDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/RoomDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/RoomTypeDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/RoomTypeDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/UserDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/softserve/ita/filter/SessionFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/filter/AdminFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/softserve/ita/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/model/Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/softserve/ita/model/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/model/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/softserve/ita/model/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/model/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/softserve/ita/model/RoomType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/model/RoomType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/softserve/ita/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/softserve/ita/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin_page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin_page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style-my-profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/style-my-profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/my_profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/my_profile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/user_page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/user_page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/controller/AdminPageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/controller/AdminRoomController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/controller/ApplicationFromUserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/controller/BookingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/controller/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/controller/RegistrationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/controller/UpdateUserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/controller/UserPageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/dao/AccountDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/dao/AccountDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/dao/ApplicationDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/dao/ApplicationDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/dao/RoomDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/dao/RoomDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/dao/RoomTypeDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/dao/RoomTypeDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/dao/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/dao/impl/AccountDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/dao/impl/AccountDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/dao/impl/ApplicationDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/dao/impl/ApplicationDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/dao/impl/RoomDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/dao/impl/RoomDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/dao/impl/RoomTypeDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/dao/impl/RoomTypeDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/dao/impl/UserDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/dao/impl/UserDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/exсeption/DAOException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/exсeption/DAOException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/filter/SessionFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/model/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/model/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/model/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/model/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/model/Room.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/model/RoomType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/model/RoomType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/util/HikariCPDataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/classes/com/softserve/ita/util/HikariCPDataSource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/HotelPalatka_1/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/admin_page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/HotelPalatka_1/admin_page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/css/style-my-profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/HotelPalatka_1/css/style-my-profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/my_profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/HotelPalatka_1/my_profile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HotelPalatka_1/user_page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/HotelPalatka_1/user_page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/softserve/ita/controller/AdminPageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/softserve/ita/controller/AdminRoomController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/softserve/ita/controller/ApplicationFromUserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/softserve/ita/controller/BookingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/softserve/ita/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/softserve/ita/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/softserve/ita/controller/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/softserve/ita/controller/RegistrationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/softserve/ita/controller/UpdateUserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/softserve/ita/controller/UserPageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/softserve/ita/dao/AccountDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/softserve/ita/dao/AccountDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/softserve/ita/dao/ApplicationDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/softserve/ita/dao/ApplicationDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/softserve/ita/dao/RoomDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/softserve/ita/dao/RoomDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/softserve/ita/dao/RoomTypeDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/softserve/ita/dao/RoomTypeDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/softserve/ita/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/softserve/ita/dao/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/softserve/ita/dao/impl/AccountDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/softserve/ita/dao/impl/AccountDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/softserve/ita/dao/impl/ApplicationDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/softserve/ita/dao/impl/ApplicationDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/softserve/ita/dao/impl/RoomDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/softserve/ita/dao/impl/RoomDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/softserve/ita/dao/impl/RoomTypeDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/softserve/ita/dao/impl/RoomTypeDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/softserve/ita/dao/impl/UserDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/softserve/ita/dao/impl/UserDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/softserve/ita/exсeption/DAOException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/softserve/ita/exсeption/DAOException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/softserve/ita/filter/SessionFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/softserve/ita/model/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/softserve/ita/model/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/softserve/ita/model/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/softserve/ita/model/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/softserve/ita/model/Room.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/softserve/ita/model/RoomType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/softserve/ita/model/RoomType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/softserve/ita/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/softserve/ita/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/softserve/ita/util/HikariCPDataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/softserve/ita/util/HikariCPDataSource.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,7 +142,30 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bookinghotel@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bookinghotel@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bookinghotel@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bookinghotel: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bookinghotel@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bookinghotel: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="room: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
@@ -42,7 +177,50 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/my_profile.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="71" column="97" selection-start-line="71" selection-start-column="97" selection-end-line="71" selection-end-column="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/AdminInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/user/UserPageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,6 +228,7 @@
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="JUnit4 Test Class" />
+        <option value="jsf" />
         <option value="Class" />
       </list>
     </option>
@@ -62,62 +241,62 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/model/Room_Type.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/exсeption/DAOException.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f13a3625-9cea-4e14-a3a2-6c30275b8d03/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/TypeOfRoomDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/RoomTypeDAO.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/764c2cb4-d7d6-4eac-b35f-d82f60760b0f/console.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/433f8856-bc78-423f-839e-693f0213a4dd/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/AdminRoomController.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/585031ed-c21f-4099-a0ad-14956a6b6187/console.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f5d6e338-a5ec-4f98-a54b-a543a78cc884/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/RoomDAO.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2dcb8ee0-0e24-4d3b-81aa-60b7ee250343/console.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5b46a7ad-02ee-4ed8-87a4-d5859ad7b8f4/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/RoomDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/model/Room.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/AccountDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/model/Account.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/AccountDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/RoomTypeDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/model/RoomType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/util/HikariCPDataSource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/Registration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/model/User.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/softserve/ita/dao/impl/UserDAOImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/UserDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/Change.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/Information.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/admin/info.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/admin/change_information.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/admin/application_from_users.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/ApplicationFromUserController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/admin/application_from_users.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/ot/AdminInformationController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/UpdateUserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/ApplicarionFromUserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/user/UserPageController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/39db1325-c4fe-4738-ac29-f91347fe56b1/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/model/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/ot/ApplicationFromUserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/user/BookingController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/RejectApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/ApplicationDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/model/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/ApplicationDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/DoBillController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/AddUserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/model/RoomType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/AccountDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/AccountDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/AddRoomType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/user/UpdateUserController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/user_page.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/DeleteUserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/UserDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/GetInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/UpdateUserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/DeleteRoomTypeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/RoomTypeDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/model/Room.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/AddRoomController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/Login.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/BookingController.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/4de3b00a-53a8-428d-a35f-8decd667ae3a/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/AdminPageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/DeleteRoomController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/RoomDAO.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/9989e973-f07c-4651-b335-b8b6a2061a6a/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/RoomDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/UpdateRoomTypeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/RoomTypeDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/admin_page.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/UpdateRoomController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/style-my-profile.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/RegistrationController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/my_profile.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/rooms.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/services.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/user_page.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/style-contact-us.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/contact_us.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/ApplicationFromUserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/UserPageController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/AdminPageController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/UserDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/model/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/DeleteController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/admin_page.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/ApplicationDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/ApplicationDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/DeleteApplicationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/AdminInfo.java" />
       </list>
     </option>
   </component>
@@ -152,13 +331,15 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="635" />
-    <option name="y" value="461" />
-    <option name="width" value="1288" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="300" />
+    <option name="y" value="120" />
+    <option name="width" value="1625" />
     <option name="height" value="1050" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="false" />
@@ -168,7 +349,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,6 +421,30 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="softserve" type="462c0819:PsiDirectoryNode" />
               <item name="ita" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HotelPalatka_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HotelPalatka_1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="softserve" type="462c0819:PsiDirectoryNode" />
+              <item name="ita" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HotelPalatka_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HotelPalatka_1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="softserve" type="462c0819:PsiDirectoryNode" />
+              <item name="ita" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -254,6 +458,28 @@
               <item name="ita" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HotelPalatka_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HotelPalatka_1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="softserve" type="462c0819:PsiDirectoryNode" />
+              <item name="ita" type="462c0819:PsiDirectoryNode" />
+              <item name="exсeption" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HotelPalatka_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HotelPalatka_1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="softserve" type="462c0819:PsiDirectoryNode" />
+              <item name="ita" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HotelPalatka_1" type="b2602c69:ProjectViewProjectNode" />
@@ -292,19 +518,12 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="HotelPalatka_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HotelPalatka_1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -317,13 +536,13 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
@@ -335,13 +554,16 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Marynka\IdeaProjects\HotelPalatka_1\src\main\webapp" />
+      <recent name="C:\Users\Marynka\IdeaProjects\HotelPalatka_1\src\main\webapp\view" />
+      <recent name="C:\Users\Marynka\IdeaProjects\HotelPalatka_1\src\main\webapp\admin\info" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Marynka\IdeaProjects\HotelPalatka_1\src\main\webapp\css" />
       <recent name="C:\Users\Marynka\IdeaProjects\HotelPalatka_1\src\main\webapp" />
+      <recent name="C:\Users\Marynka\IdeaProjects\HotelPalatka_1\src\main\webapp\css" />
+      <recent name="C:\Users\Marynka\IdeaProjects\HotelPalatka_1\src\main\webapp\admin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -511,17 +733,38 @@
       <workItem from="1561617089302" duration="1966000" />
       <workItem from="1561626664977" duration="28198000" />
       <workItem from="1561665051185" duration="8279000" />
-      <workItem from="1561715879464" duration="1027000" />
+      <workItem from="1561715879464" duration="33985000" />
+      <workItem from="1561798572097" duration="43597000" />
+      <workItem from="1561888964736" duration="27402000" />
+      <workItem from="1561928232195" duration="1394000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1561718288982</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561718288982</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175503000" />
+    <option name="totallyTimeSpent" value="280854000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49785408" visible="true" weight="0.35202703" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49785408" visible="true" weight="0.20675676" />
       <window_info id="Structure" order="1" sideWeight="0.50214595" side_tool="true" weight="0.19527027" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -530,34 +773,34 @@
       <window_info id="Favorites" order="6" sideWeight="0.50214595" side_tool="true" weight="0.19527027" />
       <window_info id="Web" order="7" sideWeight="0.50214595" side_tool="true" weight="0.19527027" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32658958" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8722973" weight="0.054913294" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932432" weight="0.2803468" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.83581084" visible="true" weight="0.33092487" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32803467" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.1277027" side_tool="true" weight="0.054913294" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.16418919" side_tool="true" weight="0.5390173" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" sideWeight="0.49932432" weight="0.32658958" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.4869942" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32658958" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49864864" weight="0.19364162" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32658958" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.46554053" weight="0.5780347" />
-      <window_info anchor="bottom" id="Database Console" order="15" sideWeight="0.49391893" weight="0.216763" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.7493243" weight="0.8916185" />
+      <window_info anchor="bottom" id="Database Console" order="15" sideWeight="0.4885135" weight="0.14595376" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" weight="0.1445946" />
+      <window_info anchor="right" id="Database" order="5" weight="0.2533784" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Maven" order="8" weight="0.32972974" />
+      <window_info anchor="right" id="Maven" order="8" visible="true" weight="0.11148649" />
       <window_info anchor="right" x="0" y="0" width="337" height="648" id="Documentation" order="9" side_tool="true" weight="0.32972974" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49785408" weight="0.03108108" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49785408" visible="true" weight="0.28243244" />
       <window_info id="Structure" order="1" sideWeight="0.50214595" side_tool="true" weight="0.19527027" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -566,27 +809,27 @@
       <window_info id="Favorites" order="6" sideWeight="0.50214595" side_tool="true" weight="0.19527027" />
       <window_info id="Web" order="7" sideWeight="0.50214595" side_tool="true" weight="0.19527027" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32658958" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8722973" visible="true" weight="0.054913294" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932432" weight="0.2803468" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.83581084" visible="true" weight="0.23554914" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32803467" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.1277027" side_tool="true" visible="true" weight="0.054913294" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.16418919" side_tool="true" weight="0.5390173" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" sideWeight="0.49932432" weight="0.32658958" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.4869942" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32658958" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49864864" weight="0.19364162" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32658958" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.46554053" weight="0.36560693" />
-      <window_info anchor="bottom" id="Database Console" order="15" sideWeight="0.49391893" weight="0.216763" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.7493243" weight="0.8916185" />
+      <window_info anchor="bottom" id="Database Console" order="15" sideWeight="0.4885135" weight="0.23265895" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.1445946" />
+      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.11824324" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Maven" order="8" weight="0.32972974" />
@@ -596,235 +839,56 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/764c2cb4-d7d6-4eac-b35f-d82f60760b0f/console.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/model/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="86" selection-start-line="4" selection-start-column="86" selection-end-line="4" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://433f8856-bc78-423f-839e-693f0213a4dd/schema/bookinghotel/table/apllication" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/433f8856-bc78-423f-839e-693f0213a4dd/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/RoomTypeDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="15" selection-end-column="55" />
+        <state relative-caret-position="1100">
+          <caret line="94" column="11" selection-start-line="94" selection-start-column="11" selection-end-line="94" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#6484#6485#0" expanded="true" />
+            <element signature="e#6515#6516#0" expanded="true" />
+            <element signature="e#6564#6565#0" expanded="true" />
+            <element signature="e#6604#6605#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/585031ed-c21f-4099-a0ad-14956a6b6187/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f5d6e338-a5ec-4f98-a54b-a543a78cc884/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.13/mysql-connector-java-8.0.13.jar!/com/mysql/cj/jdbc/ClientPreparedStatement.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2dcb8ee0-0e24-4d3b-81aa-60b7ee250343/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5b46a7ad-02ee-4ed8-87a4-d5859ad7b8f4/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ed1dc376-e326-4ee2-98e7-22a0abf222d0/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/model/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style-user.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style-rooms.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/RoomDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/model/Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-148">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="e#2896#2897#0" expanded="true" />
-            <element signature="e#2924#2925#0" expanded="true" />
-            <element signature="e#2963#2964#0" expanded="true" />
-            <element signature="e#2997#2998#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/model/RoomType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/RoomDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-632">
-          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/RoomTypeDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3498">
-          <caret line="162" column="1" lean-forward="true" selection-start-line="162" selection-start-column="1" selection-end-line="162" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/softserve/ita/dao/impl/UserDAOImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar!/javax/servlet/ServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1-sources.jar!/javax/servlet/ServletRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="216" column="14" lean-forward="true" selection-start-line="216" selection-start-column="14" selection-end-line="216" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/UpdateUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4de3b00a-53a8-428d-a35f-8decd667ae3a/console.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/model/Bill.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
-          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/rooms.jsp">
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.13/mysql-connector-java-8.0.13.jar!/com/mysql/cj/jdbc/exceptions/SQLError.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        <state relative-caret-position="32">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/services.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/ApplicationDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style-main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-242">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/contact_us.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="-89">
+          <caret line="167" column="47" selection-start-line="167" selection-start-column="47" selection-end-line="167" selection-end-column="47" />
           <folding>
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style-contact-us.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/AccountDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="198">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -833,8 +897,240 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/AccountDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1664">
-          <caret line="124" column="21" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
+        <state relative-caret-position="2178">
+          <caret line="99" column="41" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Windows/JAVA_home/jdk-12.0.1/lib/src.zip!/java.base/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="627" column="12" selection-start-line="627" selection-start-column="12" selection-end-line="627" selection-end-column="12" />
+          <folding>
+            <element signature="e#25340#25341#0" expanded="true" />
+            <element signature="e#25379#25380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Windows/JAVA_home/jdk-12.0.1/lib/src.zip!/java.management/com/sun/jmx/interceptor/DefaultMBeanServerInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="808" selection-start-line="808" selection-end-line="808" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-242">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/user_page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1755">
+          <caret line="69" column="22" lean-forward="true" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9989e973-f07c-4651-b335-b8b6a2061a6a/schema/bookinghotel/table/room_type">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="8f05dc32-47a0-468a-aed3-e499be4ee1a5">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/model/RoomType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/RoomTypeDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/model/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="59" column="31" lean-forward="true" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/RoomDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/AddUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/DeleteRoomTypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/ot/Information.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/ot/Change.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/ot/ApplicationFromUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="22" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/ot/AdminInformationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9989e973-f07c-4651-b335-b8b6a2061a6a/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/AdminRoomController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/ApplicationDo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/DeleteRoomController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/RoomDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-960">
+          <caret line="72" column="42" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/DeleteUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/DoBillController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/RejectApplicationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/ot/GetInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/AdminPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/UpdateUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -843,192 +1139,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/UserDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="136" column="5" lean-forward="true" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
+        <state relative-caret-position="431">
+          <caret line="155" column="12" selection-start-line="155" selection-start-column="12" selection-end-line="155" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/ApplicationFromUserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/RoomTypeDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="26" column="46" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="46" />
+        <state relative-caret-position="-325">
+          <caret line="151" column="29" lean-forward="true" selection-start-line="151" selection-start-column="29" selection-end-line="151" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/UpdateRoomTypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/my_profile.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/AddRoomTypeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-226">
-          <caret line="66" column="46" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/user_page.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3828">
-          <caret line="174" column="58" selection-start-line="174" selection-start-column="58" selection-end-line="174" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="33" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        <state relative-caret-position="478">
+          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/util/HikariCPDataSource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/AddRoomController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="353">
+          <caret line="55" column="28" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="55" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/model/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/rooms.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="84" lean-forward="true" selection-start-line="81" selection-start-column="5" selection-end-line="84" />
-        </state>
+        <state relative-caret-position="-66" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/UserDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/user/BookingController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="20" />
+        <state relative-caret-position="-506">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/AdminPageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-281">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/UserPageController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/UpdateRoomController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="31" column="81" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/BookingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/AdminRoomController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/model/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="199" column="38" lean-forward="true" selection-start-line="199" selection-start-column="38" selection-end-line="199" selection-end-column="38" />
-          <folding>
-            <element signature="e#2037#2038#0" expanded="true" />
-            <element signature="e#2062#2063#0" expanded="true" />
-            <element signature="e#2095#2096#0" expanded="true" />
-            <element signature="e#2123#2124#0" expanded="true" />
-            <element signature="e#2153#2154#0" expanded="true" />
-            <element signature="e#2182#2183#0" expanded="true" />
-            <element signature="e#2223#2224#0" expanded="true" />
-            <element signature="e#2259#2260#0" expanded="true" />
-            <element signature="e#2299#2300#0" expanded="true" />
-            <element signature="e#2335#2336#0" expanded="true" />
-            <element signature="e#2393#2394#0" expanded="true" />
-            <element signature="e#2443#2444#0" expanded="true" />
-            <element signature="e#2483#2484#0" expanded="true" />
-            <element signature="e#2519#2520#0" expanded="true" />
-            <element signature="e#2577#2578#0" expanded="true" />
-            <element signature="e#2627#2628#0" expanded="true" />
-            <element signature="e#2664#2665#0" expanded="true" />
-            <element signature="e#2697#2698#0" expanded="true" />
-            <element signature="e#2749#2750#0" expanded="true" />
-            <element signature="e#2793#2794#0" expanded="true" />
-            <element signature="e#2831#2832#0" expanded="true" />
-            <element signature="e#2868#2869#0" expanded="true" />
-            <element signature="e#2925#2926#0" expanded="true" />
-            <element signature="e#2977#2978#0" expanded="true" />
-            <element signature="e#3013#3014#0" expanded="true" />
-            <element signature="e#3048#3049#0" expanded="true" />
-            <element signature="e#3101#3102#0" expanded="true" />
-            <element signature="e#3149#3150#0" expanded="true" />
-            <element signature="e#3179#3180#0" expanded="true" />
-            <element signature="e#3208#3209#0" expanded="true" />
-            <element signature="e#3249#3250#0" expanded="true" />
-            <element signature="e#3285#3286#0" expanded="true" />
-            <element signature="e#3319#3320#0" expanded="true" />
-            <element signature="e#3349#3350#0" expanded="true" />
-            <element signature="e#3395#3396#0" expanded="true" />
-            <element signature="e#3433#3434#0" expanded="true" />
-            <element signature="e#3474#3475#0" expanded="true" />
-            <element signature="e#3513#3514#0" expanded="true" />
-            <element signature="e#3574#3575#0" expanded="true" />
-            <element signature="e#3623#3624#0" expanded="true" />
-            <element signature="e#3657#3658#0" expanded="true" />
-            <element signature="e#3689#3690#0" expanded="true" />
-            <element signature="e#3736#3737#0" expanded="true" />
-            <element signature="e#3771#3772#0" expanded="true" />
-            <element signature="e#3801#3802#0" expanded="true" />
-            <element signature="e#3829#3830#0" expanded="true" />
-            <element signature="e#3868#3869#0" expanded="true" />
-            <element signature="e#3895#3896#0" expanded="true" />
-            <element signature="e#3925#3926#0" expanded="true" />
-            <element signature="e#3953#3954#0" expanded="true" />
-            <element signature="e#3992#3993#0" expanded="true" />
-            <element signature="e#4019#4020#0" expanded="true" />
-            <element signature="e#4050#4051#0" expanded="true" />
-            <element signature="e#4079#4080#0" expanded="true" />
-            <element signature="e#4120#4121#0" expanded="true" />
-            <element signature="e#4149#4150#0" expanded="true" />
-            <element signature="e#4184#4185#0" expanded="true" />
-            <element signature="e#4215#4216#0" expanded="true" />
-            <element signature="e#4263#4264#0" expanded="true" />
-            <element signature="e#4303#4304#0" expanded="true" />
-            <element signature="e#4341#4342#0" expanded="true" />
-            <element signature="e#4375#4376#0" expanded="true" />
-            <element signature="e#4429#4430#0" expanded="true" />
-            <element signature="e#4475#4476#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/RegistrationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="29" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="29" />
+        <state relative-caret-position="347">
+          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1037,35 +1214,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/admin_page.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="112" column="99" selection-start-line="112" selection-start-column="99" selection-end-line="112" selection-end-column="99" />
+        <state relative-caret-position="-533">
+          <caret line="892" column="69" selection-start-line="892" selection-start-column="69" selection-end-line="892" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/DeleteApplicationController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style-my-profile.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="-1831">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/RegistrationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/impl/ApplicationDAOImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/my_profile.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="106" column="72" selection-start-line="106" selection-start-column="72" selection-end-line="106" selection-end-column="72" />
+        <state relative-caret-position="176">
+          <caret line="71" column="97" selection-start-line="71" selection-start-column="97" selection-end-line="71" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/user/UserPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/user/UpdateUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="49" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/dao/ApplicationDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/softserve/ita/controller/admin/AdminInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+        <state relative-caret-position="452">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

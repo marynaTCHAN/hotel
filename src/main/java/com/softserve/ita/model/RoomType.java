@@ -10,26 +10,25 @@ public class RoomType {
     private String name;
     private int numberOfRoom;
     private int numberOfBed;
-    private String descriptions;
+    private String description;
 
     public RoomType() {
 
     }
 
-    public RoomType(int id, String name, int numberOfRoom, int numberOfBed, String descriptions) {
+    public RoomType(int id, String name, int numberOfRoom, int numberOfBed, String description) {
         this.id = id;
         this.name = name;
         this.numberOfRoom = numberOfRoom;
         this.numberOfBed = numberOfBed;
-        this.descriptions = descriptions;
+        this.description = description;
     }
 
-    public RoomType(int id, String name, int numberOfRoom, int numberOfBed) {
-        this.id = id;
+    public RoomType(String name, int numberOfRoom, int numberOfBed, String description) {
         this.name = name;
         this.numberOfRoom = numberOfRoom;
         this.numberOfBed = numberOfBed;
-        this.descriptions = descriptions;
+        this.description = description;
     }
 
 
@@ -67,11 +66,11 @@ public class RoomType {
 
 
     public String getDescriptions() {
-        return descriptions;
+        return description;
     }
 
-    public void setDescriptions(String descriptions) {
-        this.descriptions = descriptions;
+    public void setDescriptions(String description) {
+        this.description = description;
     }
 
     @Override
@@ -81,7 +80,7 @@ public class RoomType {
                 ", name='" + name + '\'' +
                 ", numberOfRoom=" + numberOfRoom +
                 ", numberOfBed=" + numberOfBed +
-                ", description=" + descriptions +
+                ", description=" + description +
                 '}';
     }
 }

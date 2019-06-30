@@ -13,8 +13,8 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 
-@WebServlet("/my_page")
-public class LoginController extends HttpServlet {
+@WebServlet("/login")
+public class LoginController extends HttpServlet  {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -27,7 +27,7 @@ public class LoginController extends HttpServlet {
             if(user.getEmail().equals(email) && user.getPassword().equals(password)) {
                 if(user.getRole().equals("admin")){
                     session.setAttribute("admin", user);
-                    resp.sendRedirect("/adminPage");
+                    resp.sendRedirect("/admin");
                 }else {
                    req.setAttribute("user", user);
                     req.getRequestDispatcher("userPage").forward(req, resp);

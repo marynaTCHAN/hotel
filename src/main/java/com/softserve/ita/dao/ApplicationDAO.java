@@ -12,6 +12,10 @@ public interface ApplicationDAO {
 
     List<Application> select() throws DAOException;
 
-    boolean delete(Application application) throws DAOException;
+    boolean delete(int idApplication) throws DAOException;
+
+    void update (Application application) throws  DAOException;
+
+    Application getApplication(int idApplication) throws DAOException;
 
 }

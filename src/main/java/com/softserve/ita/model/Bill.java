@@ -1,38 +1,34 @@
 package com.softserve.ita.model;
 
-public class Account {
+public class Bill {
 
     /**
      * POJO(Java Bean)
      */
 
     private int id;
-    private int userId;
     private int applicationId;
     private int roomId;
     private int price;
-    private boolean isAccepted;
 
-    public Account () {
+
+    public Bill() {
 
     }
 
-    public Account(int userId, int applicationId, int roomId, int price, boolean isAccepted) {
-        this.userId = userId;
+    public Bill(int applicationId, int roomId, int price) {
         this.applicationId = applicationId;
         this.roomId = roomId;
         this.price = price;
-        this.isAccepted = isAccepted;
+
     }
 
 
-    public Account(int id, int userId, int applicationId, int roomId, int price, boolean isAccepted) {
+    public Bill(int id, int applicationId, int roomId, int price) {
         this.id = id;
-        this.userId = userId;
         this.applicationId = applicationId;
         this.roomId = roomId;
         this.price = price;
-        this.isAccepted = isAccepted;
     }
 
 
@@ -42,14 +38,6 @@ public class Account {
 
     public void setId(int id) {
         this.id = id;
-    }
-
-    public int getUserId() {
-        return userId;
-    }
-
-    public void setUserId(int userId) {
-        this.userId = userId;
     }
 
     public int getApplicationId() {
@@ -76,23 +64,14 @@ public class Account {
         this.price = price;
     }
 
-    public boolean isAccepted() {
-        return isAccepted;
-    }
-
-    public void setAccepted(boolean accepted) {
-        isAccepted = accepted;
-    }
 
     @Override
     public String toString() {
-        return "Account{" +
+        return "Bill{" +
                 "id=" + id +
-                ", userId=" + userId +
                 ", applicationId=" + applicationId +
                 ", roomId=" + roomId +
                 ", price=" + price +
-                ", isAccepted=" + isAccepted +
                 '}';
     }
 }

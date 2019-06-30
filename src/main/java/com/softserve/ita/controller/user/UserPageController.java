@@ -1,4 +1,4 @@
-package com.softserve.ita.controller;
+package com.softserve.ita.controller.user;
 
 import com.softserve.ita.dao.ApplicationDAO;
 import com.softserve.ita.dao.impl.ApplicationDAOImpl;

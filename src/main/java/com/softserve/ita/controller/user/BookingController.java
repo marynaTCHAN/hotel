@@ -1,4 +1,4 @@
-package com.softserve.ita.controller;
+package com.softserve.ita.controller.user;
 
 
 import com.softserve.ita.dao.ApplicationDAO;
@@ -27,6 +27,7 @@ public class BookingController extends HttpServlet {
         boolean isPool = false;
         String dateOfArrival = req.getParameter("date-arrival");
         String dateDeparture = req.getParameter("date-departure");
+        String typeOfRoom = req.getParameter("room-type");
         String numberPeople = req.getParameter("number-people");
         String numberOfRoom = req.getParameter("number-room");
         String square = req.getParameter("square");
@@ -57,6 +58,7 @@ public class BookingController extends HttpServlet {
         Application application = new Application(userId,
                 dateOfArrival,
                 dateDeparture,
+                typeOfRoom,
                 Integer.parseInt(numberPeople),
                 Integer.parseInt(numberOfRoom),
                 Integer.parseInt(square),
@@ -65,7 +67,8 @@ public class BookingController extends HttpServlet {
                 isParking,
                 isGym,
                 isSpa,
-                isPool
+                isPool,
+                false
         );
         System.out.println(application);
 

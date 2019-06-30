@@ -133,16 +133,22 @@
         <div id ="application-booking">
         <form id ="application" action="booking" method="post" name="booking">
             <h2 class="heading-form-booking">Form booking</h2>
-            <input type="date" onfocus="if (this.value === 'Date of arrival') {this.value = ''; }" onblur="if (this.value === '') {this.value = 'Date of arrival';}"
-                   id = "date-arrival" name="date-arrival" value="Date of arrival">
-            <input type="date" onfocus="if (this.value === 'Date departure') {this.value = ''; }" onblur="if (this.value === '') {this.value = 'Date departure';}"
-                   id = "date-departure" name="date-departure" value="Date departure">
-            <input type="text" onfocus="if (this.value === 'Number of people in room') {this.value = ''; }" onblur="if (this.value === '') {this.value = 'Number of people in room';}"
-                   id = "number-people" name="number-people" value="Number of people in room">
-            <input type="text" onfocus="if (this.value === 'Number of room') {this.value = ''; }" onblur="if (this.value === '') {this.value = 'Number room';}"
-                   id = "number-room" name="number-room" value="Number of room">
-            <input type="text" onfocus="if (this.value === 'Square') {this.value = ''; }" onblur="if (this.value === '') {this.value = 'Square';}"
-                   id = "square" name="square" value="Square">
+            <input type="date" id = "date-arrival" name="date-arrival" placeholder="Date of arrival">
+            <input type="date" id = "date-departure" name="date-departure" placeholder="Date departure">
+            <div class="select-label">
+                <label id="select-room-type">Room type</label>
+                <select id="room-type" name="room-type">
+                    <option>Family</option>
+                    <option>Bachelor</option>
+                    <option>Presidential</option>
+                    <option>Double</option>
+                    <option>VIP</option>
+                    <option>Superior Deluxe</option>
+                </select>
+            </div>
+            <input type="text" id = "number-people" name="number-people" placeholder="Number of people in room">
+            <input type="text" placeholder="Number of room" id = "number-room" name="number-room" >
+            <input type="text" placeholder="Square" id = "square" name="square">
             <div class="select-label">
                 <label id="select-feeding">Feeding</label>
                 <select id="feeding" name="feeding">
@@ -236,7 +242,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form class="modal-form" action="update_user" method="post">
+                <form class="modal-form" action="update_info" method="post">
                     <div class="element-modal-form">
                         <label class="modal-label">Name</label>
                         <input class="modal-input" value="" type="text" id="name" placeholder="Name" name="nameUpd" required >

@@ -1,4 +1,4 @@
-package com.softserve.ita.controller;
+package com.softserve.ita.controller.user;
 
 import com.softserve.ita.dao.UserDAO;
 import com.softserve.ita.dao.impl.UserDAOImpl;
@@ -15,7 +15,7 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 
-@WebServlet("/update_user")
+@WebServlet("/update_info")
 public class UpdateUserController extends HttpServlet {
 
 
@@ -27,8 +27,6 @@ public class UpdateUserController extends HttpServlet {
         String phoneUpd = req.getParameter("phoneUpd");
         String addressUpd = req.getParameter("addressUpd");
         String pswUpd = req.getParameter("pswUpd");
-
-
 
         HttpSession session = req.getSession(false);
         int userId = (Integer) session.getAttribute("userId");

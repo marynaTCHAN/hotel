@@ -7,7 +7,7 @@ public class User {
      * POJO(Java Bean)
      */
 
-    private int id;
+    private Integer id;
     private String email;
     private String password;
     private String role;

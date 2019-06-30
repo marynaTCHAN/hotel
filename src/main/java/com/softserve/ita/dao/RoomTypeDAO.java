@@ -7,12 +7,14 @@ import java.util.List;
 
 public interface RoomTypeDAO {
 
-    void add(RoomType roomType) throws DAOException;
+    boolean add(RoomType roomType) throws DAOException;
 
     List<RoomType> select() throws DAOException;
 
-    void delete(RoomType roomType) throws DAOException;
+    boolean delete(int idRoomType) throws DAOException;
 
     void update(RoomType roomType) throws DAOException;
+
+    RoomType getByName(String name) throws DAOException;
 
 }

@@ -8,11 +8,11 @@ import java.util.List;
 
 public interface RoomDAO {
 
-    void add(Room room) throws DAOException;
+    boolean add(Room room) throws DAOException;
 
     List<Room> select() throws DAOException;
 
-    void delete(String number) throws DAOException;
+    boolean delete(int idRoom) throws DAOException;
 
     void update(Room room) throws DAOException;
 

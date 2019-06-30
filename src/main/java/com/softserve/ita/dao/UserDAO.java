@@ -11,10 +11,12 @@ public interface UserDAO {
 
     List<User> select() throws DAOException;
 
-    void delete(User user) throws DAOException;
+    boolean delete(int userId) throws DAOException;
 
     boolean update(User user) throws DAOException;
 
     User getUser(String email, String password) throws DAOException;
+
+    User getUserById(int userId) throws DAOException;
 
 }

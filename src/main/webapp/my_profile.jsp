@@ -64,7 +64,7 @@
 
 
         <div id="sign-in" style="display:none; margin-top: 20%">
-            <form class="form" action="my_page" method="post">
+            <form class="form" action="login" method="post">
                 <div class="container">
                     <label>E-mail</label>
                     <input type="text" class="e-mail" name="loginEmail" placeholder="Enter E-mail" required>
@@ -78,7 +78,7 @@
             </form>
         </div>
         <div id="sign-up" style="display:none">
-            <form class="form" action="myprofile" method="post">
+            <form class="form" action="registration" method="post">
                 <div class="container">
                     <label>Name</label>
                     <input type="text" id="name" name="nameRegistration" placeholder="Enter Name" required>

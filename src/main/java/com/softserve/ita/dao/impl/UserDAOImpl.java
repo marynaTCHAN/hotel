@@ -23,35 +23,38 @@ public class UserDAOImpl implements UserDAO {
         PreparedStatement pstmtOne = null;
         PreparedStatement pstmtTwo = null;
 
-        String addQueryOne = "INSERT INTO user(email,password, role) VALUES(?,?,?)";
+        String addQueryOne = "INSERT INTO user(email,password, role) VALUES(?,?,?);";
 
-        String addQueryTwo = "INSERT INTO contact(name, surname, phone, adress) VALUES(?,?,?,?)";
+       String addQueryTwo = "INSERT INTO contact(name, surname, phone, adress) VALUES(?,?,?,?)";
 
 
         try (Connection conn = HikariCPDataSource.getConnection()
         ) {
             pstmtOne = conn.prepareStatement(addQueryOne);
-            pstmtTwo = conn.prepareStatement(addQueryTwo);
-
             pstmtOne.setString(1, user.getEmail());
             pstmtOne.setString(2, user.getPassword());
-            pstmtOne.setString(3, user.getRole());
+            pstmtOne.setString(3, "user");
+
+            int checkOne = pstmtOne.executeUpdate();
+
+            pstmtTwo = conn.prepareStatement(addQueryTwo);
+
+
             pstmtTwo.setString(1, user.getName());
             pstmtTwo.setString(2,user.getSurname());
             pstmtTwo.setString(3, user.getPhoneNumber());
             pstmtTwo.setString(4, user.getAddress());
 
-            int checkOne = pstmtOne.executeUpdate();
             int checkTwo = pstmtTwo.executeUpdate();
-            if (checkOne == 0 || checkTwo == 0) {
+            if (checkOne == 0) {
                 logger.error("Can't added user");
             } else logger.info("User was added successful");
-            return (checkOne != 0 && checkTwo != 0);
+            return (checkOne != 0);
         } catch (SQLException e) {
             logger.error("Cannot add user to database", e);
             throw new DAOException(e.getMessage(), e);
         } finally {
-            if (pstmtOne != null || pstmtTwo != null) {
+            if (pstmtOne != null) {
                 try {
                     pstmtOne.close();
                     pstmtTwo.close();
@@ -76,7 +79,7 @@ public class UserDAOImpl implements UserDAO {
             rs = stmt.executeQuery(selectQuery);
 
             while (rs.next()) {
-                users.add(new User(rs.getString("email"),
+                users.add(new User(rs.getInt("id"), rs.getString("email"),
                         rs.getString("password"), rs.getString("role"),
                         rs.getString("name"), rs.getString("surname"),
                         rs.getString("phone"), rs.getString("adress")));
@@ -98,29 +101,24 @@ public class UserDAOImpl implements UserDAO {
     }
 
     @Override
-    public void delete(User user) throws DAOException {
+    public boolean delete(int userId) throws DAOException {
 
         PreparedStatement pstmtOne = null;
-        PreparedStatement pstmtTwo = null;
 
-        String deleteQueryOne = "DELETE FROM contact WHERE user_id = ?";
-        String deleteQueryTwo = "DELETE FROM user WHERE id = ?";
+        String deleteQuery = "DELETE from  user where id = ?";
 
         try (Connection conn = HikariCPDataSource.getConnection()) {
 
-            pstmtOne = conn.prepareStatement(deleteQueryOne);
-            pstmtOne.execute("SET FOREIGN_KEY_CHECKS=0");
-            //ЗАБРАЛИ ПЕРЕВІРКУ ФОРЕІНГ КІ
-            pstmtOne.setInt(1, user.getId());
+            pstmtOne = conn.prepareStatement(deleteQuery);
+            //pstmtOne.execute("SET FOREIGN_KEY_CHECKS=0");
+            pstmtOne.setInt(1, userId);
 
             int checkOne = pstmtOne.executeUpdate();
 
-            pstmtTwo = conn.prepareStatement(deleteQueryTwo);
-            pstmtTwo.execute("SET FOREIGN_KEY_CHECKS=0");
-            pstmtTwo.setInt(1, user.getId());
-
-            int checkTwo = pstmtOne.executeUpdate();
-
+            if (checkOne == 0) {
+                logger.error("Can't added user");
+            } else logger.info("User was added successful");
+            return (checkOne != 0);
 
         } catch (SQLException e) {
             logger.error("Cannot delete user from database", e);
@@ -149,7 +147,6 @@ public class UserDAOImpl implements UserDAO {
         try (Connection conn = HikariCPDataSource.getConnection()
         ) {
             pstmtOne = conn.prepareStatement(updateQueryOne);
-            pstmtOne.execute("SET FOREIGN_KEY_CHECKS=0");
             //ЗАБРАЛИ ПЕРЕВІРКУ ФОРЕІНГ КІ
             pstmtOne.setString(1, user.getName());
             pstmtOne.setString(2, user.getSurname());
@@ -186,17 +183,59 @@ public class UserDAOImpl implements UserDAO {
     }
 
     @Override
-    public User getUser(String email, String password) throws DAOException {
+        public User getUser(String email, String password) throws DAOException {
+            PreparedStatement stmt = null;
+            ResultSet rs = null;
+
+            String query = "SELECT * from user RIGHT JOIN contact c on user.id = c.user_id where email = ? and password = ?";
+
+            try(Connection conn = HikariCPDataSource.getConnection()){
+
+                stmt = conn.prepareStatement(query);
+                stmt.setString(1,email);
+                stmt.setString(2,password);
+                rs = stmt.executeQuery();
+
+                if(rs.next()){
+                    return new User(rs.getInt("id"),
+                            rs.getString("email"),
+                            rs.getString("password"),
+                            rs.getString("role"),
+                            rs.getString("name"),
+                            rs.getString("surname"),
+                            rs.getString("phone"),
+                            rs.getString("adress")
+                    );
+
+                }else{
+                    return new User();
+                }
+            }catch (SQLException e) {
+                logger.error("Cannot update user in database", e);
+                throw new DAOException(e.getMessage(), e);
+            } finally {
+                if (stmt != null) {
+                    try {
+                        stmt.close();
+                    } catch (SQLException e) {
+                        logger.error("Cannot close prepare statement");
+                    }
+                }
+            }
+
+}
+
+    @Override
+    public User getUserById(int userId) throws DAOException {
         PreparedStatement stmt = null;
         ResultSet rs = null;
 
-        String query = "SELECT * from user RIGHT JOIN contact c on user.id = c.user_id where email = ? and password = ?";
+        String query = "SELECT * from user RIGHT JOIN contact c on user.id = c.user_id where id = ?";
 
         try(Connection conn = HikariCPDataSource.getConnection()){
 
             stmt = conn.prepareStatement(query);
-            stmt.setString(1,email);
-            stmt.setString(2,password);
+            stmt.setInt(1, userId);
             rs = stmt.executeQuery();
 
             if(rs.next()){
@@ -214,19 +253,18 @@ public class UserDAOImpl implements UserDAO {
                 return new User();
             }
 
-
         }catch (SQLException e) {
-        logger.error("Cannot update user in database", e);
-        throw new DAOException(e.getMessage(), e);
-    } finally {
-        if (stmt != null) {
-            try {
-                stmt.close();
-            } catch (SQLException e) {
-                logger.error("Cannot close prepare statement");
+            logger.error("Cannot update user in database", e);
+            throw new DAOException(e.getMessage(), e);
+        } finally {
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (SQLException e) {
+                    logger.error("Cannot close prepare statement");
+                }
             }
         }
-    }
 
-}
+    }
 }

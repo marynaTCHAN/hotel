@@ -1,4 +1,4 @@
 package com.softserve.ita.filter;
 
-public class SessionFilter {
+public class AdminFilter {
 }

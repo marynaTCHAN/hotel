@@ -20,6 +20,7 @@ public class Application {
     private boolean gym;
     private boolean SPA;
     private boolean pool;
+    private boolean accepted;
 
     private String nameUser;
     private String surnameUser;
@@ -30,10 +31,12 @@ public class Application {
     }
 
 
-    public Application(int userId, String dateOfArrival, String dateDeparture, int numberOfPeople, int numberOfRoom, int square, String feeding, boolean airConditioner, boolean parking, boolean gym, boolean SPA, boolean pool) {
+    public Application(int userId, String dateOfArrival, String dateDeparture, String typeOfRoom,
+                       int numberOfPeople, int numberOfRoom, int square, String feeding, boolean airConditioner, boolean parking, boolean gym, boolean SPA, boolean pool, boolean accepted) {
         this.userId = userId;
         this.dateOfArrival = dateOfArrival;
         this.dateDeparture = dateDeparture;
+        this.typeOfRoom = typeOfRoom;
         this.numberOfPeople = numberOfPeople;
         this.numberOfRoom = numberOfRoom;
         this.square = square;
@@ -43,15 +46,17 @@ public class Application {
         this.gym = gym;
         this.SPA = SPA;
         this.pool = pool;
+        this.accepted = accepted;
 
     }
 
-
-    public Application(int id, int userId, String dateOfArrival, String dateDeparture, int numberOfPeople, int numberOfRoom, int square, String feeding, boolean airConditioner, boolean parking, boolean gym, boolean SPA, boolean pool) {
+    public Application(int id, int userId, String dateOfArrival, String dateDeparture, String typeOfRoom,
+                       int numberOfPeople, int numberOfRoom, int square, String feeding, boolean airConditioner, boolean parking, boolean gym, boolean SPA, boolean pool, boolean accepted) {
         this.id = id;
         this.userId = userId;
         this.dateOfArrival = dateOfArrival;
         this.dateDeparture = dateDeparture;
+        this.typeOfRoom = typeOfRoom;
         this.numberOfPeople = numberOfPeople;
         this.numberOfRoom = numberOfRoom;
         this.square = square;
@@ -61,6 +66,50 @@ public class Application {
         this.gym = gym;
         this.SPA = SPA;
         this.pool = pool;
+        this.accepted = accepted;
+
+    }
+
+
+    public Application(String nameUser, String surnameUser, String dateOfArrival, String dateDeparture, String typeOfRoom,
+                       int numberOfPeople, int numberOfRoom, int square, String feeding, boolean airConditioner, boolean parking, boolean gym, boolean SPA, boolean pool, boolean accepted) {
+        this.nameUser = nameUser;
+        this.surnameUser = surnameUser;
+        this.dateOfArrival = dateOfArrival;
+        this.dateDeparture = dateDeparture;
+        this.typeOfRoom = typeOfRoom;
+        this.numberOfPeople = numberOfPeople;
+        this.numberOfRoom = numberOfRoom;
+        this.square = square;
+        this.feeding = feeding;
+        this.airConditioner = airConditioner;
+        this.parking = parking;
+        this.gym = gym;
+        this.SPA = SPA;
+        this.pool = pool;
+        this.accepted = accepted;
+
+    }
+
+
+    public Application(int id, String nameUser, String surnameUser, String dateOfArrival, String dateDeparture, String typeOfRoom,
+                       int numberOfPeople, int numberOfRoom, int square, String feeding, boolean airConditioner, boolean parking, boolean gym, boolean SPA, boolean pool, boolean accepted) {
+        this.id = id;
+        this.nameUser = nameUser;
+        this.surnameUser = surnameUser;
+        this.dateOfArrival = dateOfArrival;
+        this.dateDeparture = dateDeparture;
+        this.typeOfRoom = typeOfRoom;
+        this.numberOfPeople = numberOfPeople;
+        this.numberOfRoom = numberOfRoom;
+        this.square = square;
+        this.feeding = feeding;
+        this.airConditioner = airConditioner;
+        this.parking = parking;
+        this.gym = gym;
+        this.SPA = SPA;
+        this.pool = pool;
+        this.accepted = accepted;
 
     }
 
@@ -142,7 +191,7 @@ public class Application {
     }
 
     public void setAirConditioner(boolean airConditioner) {
-        airConditioner = airConditioner;
+        this.airConditioner = airConditioner;
     }
 
     public boolean isParking() {
@@ -150,7 +199,7 @@ public class Application {
     }
 
     public void setParking(boolean parking) {
-        parking = parking;
+        this.parking = parking;
     }
 
     public boolean isGym() {
@@ -158,7 +207,7 @@ public class Application {
     }
 
     public void setGym(boolean gym) {
-        gym = gym;
+        this.gym = gym;
     }
 
     public boolean isSPA() {
@@ -166,7 +215,7 @@ public class Application {
     }
 
     public void setSPA(boolean SPA) {
-        SPA = SPA;
+        this.SPA = SPA;
     }
 
     public boolean isPool() {
@@ -174,7 +223,7 @@ public class Application {
     }
 
     public void setPool(boolean pool) {
-        pool = pool;
+        this.pool = pool;
     }
 
     public String getNameUser() {
@@ -193,6 +242,14 @@ public class Application {
         this.surnameUser = surnameUser;
     }
 
+    public boolean isAccepted() {
+        return accepted;
+    }
+
+    public void setAccepted(boolean accepted) {
+        this.accepted = accepted;
+    }
+
     @Override
     public String toString() {
         return "Application{" +
@@ -200,15 +257,19 @@ public class Application {
                 ", userId=" + userId +
                 ", dateOfArrival='" + dateOfArrival + '\'' +
                 ", dateDeparture='" + dateDeparture + '\'' +
+                ", typeOfRoom='" + typeOfRoom + '\'' +
                 ", numberOfPeople=" + numberOfPeople +
                 ", numberOfRoom=" + numberOfRoom +
                 ", square=" + square +
                 ", feeding='" + feeding + '\'' +
-                ", isAirConditioner=" + airConditioner +
-                ", isParking=" + parking +
-                ", isGym=" + gym +
-                ", isSPA=" + SPA +
-                ", isPool=" + pool +
+                ", airConditioner=" + airConditioner +
+                ", parking=" + parking +
+                ", gym=" + gym +
+                ", SPA=" + SPA +
+                ", pool=" + pool +
+                ", nameUser='" + nameUser + '\'' +
+                ", surnameUser='" + surnameUser + '\'' +
+                ", accepted='" + accepted + '\'' +
                 '}';
     }
 }

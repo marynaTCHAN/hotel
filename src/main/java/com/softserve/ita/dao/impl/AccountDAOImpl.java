@@ -2,7 +2,7 @@ package com.softserve.ita.dao.impl;
 
 import com.softserve.ita.dao.AccountDAO;
 import com.softserve.ita.exсeption.DAOException;
-import com.softserve.ita.model.Account;
+import com.softserve.ita.model.Bill;
 import com.softserve.ita.util.HikariCPDataSource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,30 +17,30 @@ public class AccountDAOImpl implements AccountDAO {
     private static final Logger logger = LoggerFactory.getLogger(RoomDAOImpl.class);
 
     @Override
-    public void add(Account account) throws DAOException {
+    public boolean add(Bill bill) throws DAOException {
         PreparedStatement pstmt = null;
 
-        String addQuery = "INSERT INTO account(application_id, user_id, room_id, price, is_accepted)" +
-                " VALUES(?,?,?,?,?)";
+        String addQuery = "INSERT INTO bill(application_id, room_id, price)" +
+                " VALUES(?,?,?)";
         try(Connection conn = HikariCPDataSource.getConnection()
         ){
             pstmt = conn.prepareStatement(addQuery);
             pstmt.execute("SET FOREIGN_KEY_CHECKS=0");
             //ЗАБРАЛИ ПЕРЕВІРКУ ФОРЕІНГ КІ
 
-            pstmt.setInt(1, account.getApplicationId());
-            pstmt.setInt(2, account.getUserId());
-            pstmt.setInt(3, account.getRoomId());
-            pstmt.setInt(4, account.getPrice());
-            pstmt.setBoolean(5, account.isAccepted());
+            pstmt.setInt(1, bill.getApplicationId());
+            pstmt.setInt(2, bill.getRoomId());
+            pstmt.setInt(3, bill.getPrice());
+            //pstmt.setBoolean(4, bill.isAccepted());
 
             int check = pstmt.executeUpdate();
 
             if (check == 0) {
-                logger.error("Can't added account");
-            } else logger.info("Account was added successful");
+                logger.error("Can't added bill");
+            } else logger.info("Bill was added successful");
+            return (check != 0);
         }catch (SQLException e){
-            logger.error("Cannot add account to database", e);
+            logger.error("Cannot add bill to database", e);
             throw new DAOException(e.getMessage(), e);
         }finally {
             if(pstmt != null){
@@ -54,32 +54,32 @@ public class AccountDAOImpl implements AccountDAO {
     }
 
     @Override
-    public List<Account> select() throws DAOException {
+    public List<Bill> select() throws DAOException {
         return null;
     }
 
     @Override
-    public void delete(Account account) throws DAOException {
+    public void delete(Bill bill) throws DAOException {
 
         PreparedStatement pstmt = null;
 
-        String deleteQuery = "DELETE FROM account WHERE id = ?";
+        String deleteQuery = "DELETE FROM bill WHERE id = ?";
 
 
         try (Connection conn = HikariCPDataSource.getConnection()) {
 
             pstmt = conn.prepareStatement(deleteQuery);
 
-            pstmt.setInt(1, account.getId());
+            pstmt.setInt(1, bill.getId());
 
             int check = pstmt.executeUpdate();
 
             if (check == 0) {
-                logger.error("Can't deleted account");
-            } else logger.info("Account was deleted successful");
+                logger.error("Can't deleted bill");
+            } else logger.info("Bill was deleted successful");
 
         } catch (SQLException e) {
-            logger.error("Cannot delete account from database", e);
+            logger.error("Cannot delete bill from database", e);
             throw new DAOException(e.getMessage(), e);
         } finally {
             if (pstmt != null) {
@@ -93,12 +93,12 @@ public class AccountDAOImpl implements AccountDAO {
     }
 
     @Override
-    public void update(Account account) throws DAOException {
+    public void update(Bill bill) throws DAOException {
 
         PreparedStatement pstmt = null;
 
-        String updateQuery = "UPDATE account " +
-                "SET  price= ?, is_accepted= ? WHERE id = ?";
+        String updateQuery = "UPDATE bill " +
+                "SET  price= ? WHERE id = ?";
 
         try (Connection conn = HikariCPDataSource.getConnection()
         ) {
@@ -107,18 +107,17 @@ public class AccountDAOImpl implements AccountDAO {
             pstmt.execute("SET FOREIGN_KEY_CHECKS=0");
             //ЗАБРАЛИ ПЕРЕВІРКУ ФОРЕІНГ КІ
 
-            pstmt.setInt(1, account.getPrice());
-            pstmt.setBoolean(2, account.isAccepted());
-            pstmt.setInt(3, account.getId());
+            pstmt.setInt(1, bill.getPrice());
+            pstmt.setInt(2, bill.getId());
 
             int check = pstmt.executeUpdate();
 
             if (check == 0) {
-                logger.error("Can't update account");
-            } else logger.info("Account was updated successful");
+                logger.error("Can't update bill");
+            } else logger.info("Bill was updated successful");
 
         } catch (SQLException e) {
-            logger.error("Cannot update account in database", e);
+            logger.error("Cannot update bill in database", e);
             throw new DAOException(e.getMessage(), e);
         } finally {
             if (pstmt != null) {
