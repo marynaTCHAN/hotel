@@ -87,27 +87,6 @@ public class AdminPageController extends HttpServlet {
     }
 
 
-    protected void delete(HttpServletRequest req, HttpServletResponse resp) throws ServletException {
-
-            String id = req.getParameter("id");
-            System.out.println("fggfgf");
-           // System.out.println(Integer.parseInt(req.getParameter("id")));
-           //System.out.println("I`M HERE");
-           // ApplicationDAO applicationDAO = new ApplicationDAOImpl();
-           // applicationDAO.delete((Integer.parseInt(req.getParameter("id"))));
-            //System.out.println("ok");
-            // int accountId = Integer.valueOf(req.getParameter("docId"));
-
-          /*  accountService.deleteAccount(accountId);
-
-            resp.sendRedirect("/admin/doctor");
-
-        } catch (DAOException | IOException e) {
-            throw new ServletException(e.getMessage(), e);
-        }*/
-
-    }
-
 
 
 }
